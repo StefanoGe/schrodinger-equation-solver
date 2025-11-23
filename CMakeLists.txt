@@ -1,10 +1,13 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.10)
 
 project(1d_schroedinger C)
 
 # c standard
 set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_STANDARD_REQUIRED ON)
+
+# common flags
+set(CMAKE_CXX_FLAGS "-Wall -pedantic-errors -Wextra -Wconversion -Werror -Wno-sign-conversion -O0")
 
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 
