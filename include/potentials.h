@@ -13,7 +13,7 @@ typedef struct{
 	double *params;
 } Potential;
 
-double pot_evaluate(const Potential * potential, double x)
+double pot_evaluate(const Potential * potential, double x);
 
 double func_square_well( double x, double * params );
 
