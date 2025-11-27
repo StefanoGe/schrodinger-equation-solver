@@ -2,3 +2,4 @@ bin/*
 data/**/*
 build/*
 BLANK_README.md
+cmake_help.txt
